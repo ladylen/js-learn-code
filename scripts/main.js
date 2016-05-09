@@ -9,5 +9,5 @@ function add() {
   var n1 = parseFloat(numOne.value) || 0;
   var n2 = parseFloat(numTwo.value) || 0;
   //console.log(n1);
-  addSum.innerHTML = "Sum: " + (n1+n2);
+  addSum.innerHTML = "Your sum is: " + (n1+n2);
 }
