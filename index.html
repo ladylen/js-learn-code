@@ -11,18 +11,29 @@
   .hide {
   	display: none;
   }
+  li input {
+  	display: none;
+  }
+  li.edit span {
+  	display: none;
+  }
+  li.edit input {
+  	display: initial;
+  }
   </style>
 </head>
 <body>
 <main>
+<!-- calculator
 	<div class="container">
 		<div class="jumbotron">
 			<h1>Let's learn Javascript!</h1>
 			<p class="lead"><input id="num-one" value=""></input> + <input id="num-two"> </input></p>
 			<p id="add-sum"></p>
 		</div>
-	</div>
-<!-- 	<h4>Pictures</h4>
+	</div> -->
+<!-- change Picture on click 	
+	<h4>Pictures</h4>
 	<ul>
 		<li><a data-img="red-rose-pic" id="red-rose" href="#">Red rose</a></li>
 		<li><a data-img="white-rose-pic" id="white-rose" href="#">White rose</a></li>
@@ -35,8 +46,24 @@
 		<img class="hide" id="pink-rose-pic" src="http://thumbs.dreamstime.com/x/pink-rose-7644652.jpg">
 
 	</ul>
- -->	</main>
-	<script src="scripts/main.js"></script>
+ -->	
+ <ul id="checklist">
+ 	<li class="edit">
+ 		<span>Apples</span>
+ 		<input value="Apples"></input>
+ 	</li>
+ 	<li>
+ 		<span>Bananas</span>
+ 		<input value="Bananas"></input>
+ 	</li>
+ 	<li>
+ 		<span>Oranges</span>
+ 		<input value="Oranges"></input>
+ 	</li>
+ </ul>
+
+ </main>
+	<!-- <script src="scripts/main.js"></script> -->
 	<script src="scripts/events.js"></script>
 </body>
 </html>
