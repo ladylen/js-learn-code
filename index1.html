@@ -3,28 +3,36 @@
   <style type="text/css">  </style>
 </head>
 <body>
-	<div>
-		<div>
-			<div class="col-xs-1">
-				<div id="pannel1" class="pannel pannel-primary">
+	<div class="container">
+        <div class="jumbotron">
+            <h1>Let's Have Fun!</h1>
+            <button id="btn1">#btn1</button>
+            <button id="btn2">#btn2</button>
+            <button id="btn3">#btn3</button>
+            <button id="btn4">#btn4</button>
+        </div>
+
+		<div class="row">
+			<div class="col-xs-3">
+				<div id="panel1" class="panel panel-primary">
 					#panel1
 				</div>
 			<div class="panel-body">content</div>
 			</div>
-			<div class="col-xs-2">
-			 <div id="pannel2" class="pannel pannel-primary">
+			<div class="col-xs-3">
+			 <div id="panel2" class="panel panel-primary">
 			 #panel2
 			 </div>
 			<div class="panel-body">content</div>
 			</div>
 		<div class="col-xs-3">
-			<div id="pannel3" class="pannel pannel-primary">
+			<div id="panel3" class="panel panel-primary">
 			#panel3
 			</div>
 			<div class="panel-body">content</div>
 		</div>
-		<div class="col-xs-4">
-			<div id="pannel4" class="pannel pannel-primary">
+		<div class="col-xs-3">
+			<div id="panel4" class="panel panel-primary">
 			#panel4
 			</div>
 			<div class="panel-body">content</div>
@@ -34,15 +42,10 @@
 <script src="bower_components/jquery/jquery-1.12.3.js"></script>
 
 <script>
-	
-	$(document).ready(function() {
-
-	});
 
 	$(function(){
-
+        $("#panel1").hide(300).show(1000).hide(300).show(1000);
 	});
-	}
 
 </script>
 

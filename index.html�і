@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Test :: JS</title>
+  <style type="text/css">
+  img {
+  	width: 200px;
+  }
+  .hide {
+  	display: none;
+  }
+  li input {
+  	display: none;
+  }
+  li.edit span {
+  	display: none;
+  }
+  li.edit input {
+  	display: initial;
+  }
+  </style>
+</head>
+<body>
+<main>
+<!-- calculator
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Let's learn Javascript!</h1>
+			<p class="lead"><input id="num-one" value=""></input> + <input id="num-two"> </input></p>
+			<p id="add-sum"></p>
+		</div>
+	</div> -->
+<!-- change Picture on click 	
+	<h4>Pictures</h4>
+	<ul>
+		<li><a data-img="red-rose-pic" id="red-rose" href="#">Red rose</a></li>
+		<li><a data-img="white-rose-pic" id="white-rose" href="#">White rose</a></li>
+		<li><a data-img="pink-rose-pic" id="pink-rose" href="#">Pink rose</a></li>
+
+		<img class="hide" id="red-rose-pic" src="http://millennialmagazine.com/wp-content/uploads/2015/02/Red-Rose-Header1.jpg">
+		
+		<img class="hide" id="white-rose-pic" src="http://hmd.org.uk/sites/default/files/styles/w540/public/images/testimonials/white_rose.jpg?itok=bKPH06zg">
+
+		<img class="hide" id="pink-rose-pic" src="http://thumbs.dreamstime.com/x/pink-rose-7644652.jpg">
+
+	</ul>
+ -->	
+ <ul id="checklist">
+ 	<li class="edit">
+ 		<span>Apples</span>
+ 		<input value="Apples"></input>
+ 	</li>
+ 	<li>
+ 		<span>Bananas</span>
+ 		<input value="Bananas"></input>
+ 	</li>
+ 	<li>
+ 		<span>Oranges</span>
+ 		<input value="Oranges"></input>
+ 	</li>
+ </ul>
+
+ </main>
+	<!-- <script src="scripts/main.js"></script> -->
+	<script src="scripts/events.js"></script>
+</body>
+</html>
