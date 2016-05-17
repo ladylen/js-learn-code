@@ -1,7 +1,27 @@
 <!doctype html>
 <meta name="viewport" content="width=device-width">
   <title>JQuery</title>
-  <style type="text/css">  </style>
+  <style type="text/css">  
+    .row {
+      
+    }
+    .col-xs-3 {
+      float: left;
+      margin: 20px;
+      border-radius: 5px 5px;
+      border: solid;
+      border-color: #919;
+/*       background: #999; */
+    }
+    .panel-heading {
+      background: #919;
+      padding: 15px;
+/*       border-radius: 5px 5px 0 0; */
+    }
+    .panel-body {
+      padding: 15px;
+    }
+  </style>
 </head>
 <body>
 	<div class="container">
@@ -15,28 +35,28 @@
 
 		<div class="row">
 			<div class="col-xs-3">
-				<div id="panel1" class="panel panel-primary">
-					#panel1
-				</div>
-			<div class="panel-body">content</div>
-			</div>
+			  <div id="panel1" class="panel panel-primary">
+				  <div class="panel-heading">#panel1</div>
+				  <div class="panel-body">content</div>
+			      </div>
+			  </div>
 			<div class="col-xs-3">
 			 <div id="panel2" class="panel panel-primary">
-			 #panel2
+			  <div class="panel-heading">#panel2</div>
+			  <div class="panel-body">content</div>
 			 </div>
-			<div class="panel-body">content</div>
 			</div>
 		<div class="col-xs-3">
-			<div id="panel3" class="panel panel-primary">
-			#panel3
-			</div>
-			<div class="panel-body">content</div>
+		  <div id="panel3" class="panel panel-primary">
+		    <div class="panel-heading">#panel3</div>
+		    <div class="panel-body">content</div>
+		  </div>
 		</div>
 		<div class="col-xs-3">
-			<div id="panel4" class="panel panel-primary">
-			#panel4
-			</div>
-			<div class="panel-body">content</div>
+		  <div id="panel4" class="panel panel-primary">
+		    <div class="panel-heading">#panel4</div>
+		    <div class="panel-body">content</div>
+		  </div>
 		</div>
 	</div>
 </div>
@@ -45,8 +65,10 @@
 <script>
 
 	$(function(){
-        $("#panel1").hide(300).show(1000).hide(300).show(1000);
+	  $("#panel1").hide();
+	  $("#panel2").css({opacity: '0.5'});
 	});
+	
 
 </script>
 
